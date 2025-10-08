@@ -1,0 +1,3 @@
+this is a playlist youtube downloader that download to .zip, done it with 2 challenges for me, 1 doing it fast(being functional and having the requirment) and second learning how to ask the IA for a solid product, wanted to learn how to use better the tools; the repo include a small bat for downloading and installing yt-dlp and ffmpeg; no bdd required only xampp and port 8080 free; it only require the url of the channel and the url of the playlist, the program its lightweight, its on spanish but its intuitive;
+:: Navegar al folder de tu proyecto
+tested on playlist of 20hours, some licensed songs or private or anything will not work, dont download too much works good around up to 400 in a row need a pause or youtube will take you as a bot
