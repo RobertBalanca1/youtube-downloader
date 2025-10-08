@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>🎵 Descarga tu Playlist a MP3</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🎵 Descargar Playlist a MP3</h1>
+
+<div class="input-group">
+    <label for="canal">Canal (opcional):</label>
+    <input type="text" id="canal" placeholder="Nombre del canal">
+</div>
+
+<div class="input-group">
+    <label for="playlist">URL de la playlist:</label>
+    <input type="text" id="playlist" placeholder="https://www.youtube.com/playlist?...">
+</div>
+
+<button id="downloadBtn">Iniciar descarga</button>
+
+<div id="progressContainer">
+    <div id="progressBar"></div>
+</div>
+<div id="progressLabel">Progreso: 0%</div>
+<div id="status"></div>
+
+<footer>Creado con ❤️ por tu asistente</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
